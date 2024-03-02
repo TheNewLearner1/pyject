@@ -1,7 +1,14 @@
 import numpy as np
-name = ["32432432","fdgfdgfh","bcnhgkuh","poipihjmgh","cxvxczvfxf"]
-m = 0 
-while m < 10:
-    x = np.random.choice(name)
-    print(x)
+chars = "`1234567890-=qwertyuiopasdfghjklzxcvbnm"
+i = 0
+m = 0
+password = []
+x = int(input("length of password: "))
+while i < x:
+    xo = np.random.randint(0, len(chars)-1)
+    xoo = chars[xo]
+    password.append(xoo)
+    i += 1
+while m < len(password):
+    print(password[m], end="")
     m += 1
