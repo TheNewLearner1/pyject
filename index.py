@@ -12,3 +12,4 @@ while i < x:
 while m < len(password):
     print(password[m], end="")
     m += 1
+print('done')
