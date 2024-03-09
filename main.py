@@ -1,9 +1,12 @@
-x = 1
-while (x < 100):
-    x += 1
-    print(x)
-    if x % 2 == 0:
-        print("even")
-    elif x % 2 == 1:
-        print("odd")
-print("done")
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('TkAgg')
+z = [1,2,3,4,5]
+y = []
+for x in z:
+    x *= x*x
+    y.append(x)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.plot(z, y)
+plt.show()
