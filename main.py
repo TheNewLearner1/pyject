@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('TkAgg')
 z = [1,2,3,4,5]
 y = []
 for x in z:
