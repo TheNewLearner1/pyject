@@ -25,6 +25,7 @@ class CalculatorApp(App):
                     else:
                         button.bind(on_press=self.add_operation)
                     h_layout.add_widget(button)
+
             root.add_widget(h_layout)
         return root
     def add_operation(self, instance):
